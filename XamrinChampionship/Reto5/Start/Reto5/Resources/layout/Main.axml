@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="@string/Bienvenida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewResult" />
+    <ImageView
+        android:src="@drawable/cinturon"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/imageViewCinturon" />
+    <Button
+        android:id="@+id/BtnRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Registro" />
+    <TextView
+        android:text="@string/AvisoPrivacidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewAvisoPrivacidad"
+        android:layout_marginBottom="10.0dp" />
+    <TextView
+        android:text="@string/UrlPrivacidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewUrlPrivacidad"
+        android:layout_marginBottom="6.5dp" />
+    <TextView
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_marginBottom="10.0dp" />
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="158.0dp"
+        android:id="@+id/scrollView1"
+        android:layout_marginBottom="183.0dp">
+        <TextView
+            android:text="Registros: "
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textViewResults"
+            android:layout_marginBottom="0.0dp"
+            android:layout_marginTop="0.0dp" />
+    </ScrollView>
+</LinearLayout>
