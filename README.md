@@ -1,2 +1,2 @@
 # Xamarin
-Challenges and Xamarin forms book samples 
+Challenges Xamarin Championship and Xamarin forms book samples 
