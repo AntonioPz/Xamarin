@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVVMCP.Views.MainView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Text="{Binding MyMessage, Mode=TwoWay}"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+            <Label Text="{Binding MyMessage}"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            
+            <Button Text="Sent" 
+              Command="{Binding MyCommand}"
+              VerticalOptions="Center"  
+              HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
